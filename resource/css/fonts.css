@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Jalnan2';
+  src: url('../fonts/Jalnan2.otf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'RixInooAriDuri_Pro';
+  src: url('../fonts/RixInooAriDuri_Pro.otf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('../fonts/GmarketSansLight.otf') format('truetype');
+  font-style: normal;
+  font-weight:  300;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('../fonts/GmarketSansMedium.otf') format('truetype');
+  font-style: normal;
+  font-weight:  400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('../fonts/GmarketSansBold.otf') format('truetype');
+  font-style: normal;
+  font-weight:  700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('../fonts/Pretendard-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('../fonts/Pretendard-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('../fonts/Pretendard-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('../fonts/Pretendard-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cafe24Ssurround';
+  src: url('../fonts/Cafe24Ssurround-v2.0.woff2') format('woff2'),
+       url('../fonts/Cafe24Ssurround-v2.0.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

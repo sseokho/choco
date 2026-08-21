@@ -1,6 +1,8 @@
 html,
 body{
     font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 a,
 button,
@@ -30,6 +32,27 @@ menu, ol, ul {
 }
 
 
+@media(max-width: 1600px){
+    html,
+    body{
+        font-size: 52.083%;
+    }
+}
+
+@media(max-width: 1440px){
+    html,
+    body{
+        font-size: 46.875%;
+    }
+}
+
+@media(max-width: 1280px){
+    html,
+    body{
+        font-size: 41.667%;
+    }
+}
+
 @media(max-width: 1024px){
     html,
     body{
@@ -40,10 +63,52 @@ menu, ol, ul {
     }
 }
 
+@media(max-width: 768px){
+    html,
+    body{
+        font-size: 29.16%;
+    }
+}
+
+@media(max-width: 560px){
+    html,
+    body{
+        font-size: 21.2625%;
+    }
+}
+
+@media(max-width: 480px){
+    html,
+    body{
+        font-size: 18.225%;
+    }
+}
+
+@media(max-width: 414px){
+    html,
+    body{
+        font-size: 15.7194%;
+    }
+}
+
+@media(max-width: 390px){
+    html,
+    body{
+        font-size: 14.8068%;
+    }
+}
+
 @media(max-width: 360px){
     html,
     body{
-        font-size: 11.7%;
+        font-size: 13.6469%;
+    }
+}
+
+@media(max-width: 320px){
+    html,
+    body{
+        font-size: 12.15%;
     }
 }
 

@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./resource/css/fonts.css">
   <link rel="stylesheet" href="./resource/css/reset.css">
-  <link rel="stylesheet" href="./resource/vendor/swiper/swiper-bundle.min.css">
-  <link rel="stylesheet" href="./resource/vendor/aos/aos.css">
+  <link rel="stylesheet" href="./resource/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./resource/css/aos.css">
   <link rel="stylesheet" href="./resource/css/style.css">
   <title>미래엔 퍼블리싱 테스트</title>
 </head>
@@ -49,12 +49,10 @@
     <main id="main-content" class="main">
       <section id="hero-heading" class="main-section hero" aria-labelledby="hero-heading">
         <div class="hero__backdrop" aria-hidden="true">
-          <!--구름-->
           <img class="hero__backdrop-deco hero__backdrop-deco--cloud cloud-1" src="./resource/img/cloud-1.svg" alt="" />
           <img class="hero__backdrop-deco hero__backdrop-deco--cloud cloud-2" src="./resource/img/cloud-2.svg" alt="" />
           <img class="hero__backdrop-deco hero__backdrop-deco--cloud cloud-3" src="./resource/img/cloud-3.svg" alt="" />
           <img class="hero__backdrop-deco hero__backdrop-deco--cloud cloud-4" src="./resource/img/cloud-4.svg" alt="" />
-          <!--버블-->
           <img class="hero__backdrop-deco hero__backdrop-deco--bubble bubble-1" src="./resource/img/bubble-1.svg"
             alt="" />
           <img class="hero__backdrop-deco hero__backdrop-deco--bubble bubble-2" src="./resource/img/bubble-2.svg"
@@ -76,7 +74,7 @@
         </div>
         <div class="hero__glow" aria-hidden="true"></div>
         <div class="hero__badge">
-          <img class="hero__badge-deco hero__badge-deco--kite" src="./resource/img/kite.svg" alt="" />
+          <img class="hero__badge-deco hero__badge-deco--kite" src="./resource/img/hero__badge-deco--kite.svg" alt="" />
           <img class="hero__badge-deco hero__badge-deco--flower flower-1" src="./resource/img/back-flower--1.svg"
             alt="" />
           <img class="hero__badge-deco hero__badge-deco--flower flower-2" src="./resource/img/back-flower--2.svg"
@@ -84,16 +82,16 @@
           <img class="hero__badge-deco hero__badge-deco--speech" src="./resource/img/hero__badge--speech.png" alt="" />
           <img class="hero__badge-deco hero__badge-deco--television" src="./resource/img/television.svg" alt="" />
 
-          <img class="hero__badge-deco hero__badge-deco--caption caption-1"
+          <img class="hero__badge-deco hero__badge-deco--caption caption-1" data-aos="fade-up"
             src="./resource/img/hero__badge-caption--1.png" alt="" />
-          <img class="hero__badge-deco hero__badge-deco--caption caption-2"
+          <img class="hero__badge-deco hero__badge-deco--caption caption-2" data-aos="fade-up" data-aos-delay="150"
             src="./resource/img/hero__badge-caption--2.png" alt="" />
         </div>
         <div class="hero__character">
           <img class="hero__character-deco hero__character-deco--speech"
             src="./resource/img/hero__character--speech.svg" alt="" />
           <img class="hero__character-deco hero__character-deco--img" src="./resource/img/hero__character--img.gif"
-            alt="" />
+            alt="" data-aos="zoom-in" data-aos-delay="200" />
           <img class="hero__character-deco hero__character-deco--flower"
             src="./resource/img/hero__character--flower.svg" alt="" />
 
@@ -107,7 +105,7 @@
               </span>
               <img class="hero__info-badge-char" src="./resource/img/dino.svg" alt="" aria-hidden="true" />
             </span>
-            <p class="hero__info-message">
+            <p class="hero__info-message" data-aos="fade-up">
               <span class="hero__info-message-accent">마감 전, 빠르게</span>
               <span class="hero__info-message-main">초코타임 신청하러 가자</span>
             </p>
@@ -121,16 +119,16 @@
             </a>
           </div>
           <div class="hero__info-cards">
-            <div class="hero__info-card hero__info-card--lesson">
+            <div class="hero__info-card hero__info-card--lesson" data-aos="fade-up" data-aos-delay="0">
               <p class="hero__info-card__title">수업 내용</p>
               <p class="hero__info-card__text">아이의 생각을 바꾸는<br />30분의 역사 경험</p>
             </div>
-            <div class="hero__info-card hero__info-card--gift">
+            <div class="hero__info-card hero__info-card--gift" data-aos="fade-up" data-aos-delay="100">
               <p class="hero__info-card__title">참여 선물</p>
               <p class="hero__info-card__text">초간단 댓글&amp;후기 쓰고<br />특별한 선물
                 받자<span class="hero__info-card__heart" aria-hidden="true">♥</span></p>
             </div>
-            <div class="hero__info-card hero__info-card--method">
+            <div class="hero__info-card hero__info-card--method" data-aos="fade-up" data-aos-delay="200">
               <p class="hero__info-card__title">참여 방법</p>
               <p class="hero__info-card__text">한국사·입시 전문 쌤과<br />ZOOM에서 실시간으로 만나요!</p>
             </div>
@@ -150,28 +148,28 @@
           <img class="holiday__eyebrow-tail" src="./resource/img/holiday__eyebrow-tail.svg" alt="" aria-hidden="true" />
         </div>
         <div class="holiday__title">
-          <h2 id="holiday-heading" class="holiday__heading">
+          <h2 id="holiday-heading" class="holiday__heading" data-aos="fade-up">
             <span class="holiday__heading-plain">“ 아이는</span>
             <span class="holiday__heading-accent">왜 쉬는 날인지</span>
             <span class="holiday__heading-plain">알고 있을까요 ”</span>
           </h2>
-          <p class="holiday__subtext">
+          <p class="holiday__subtext" data-aos="fade-up" data-aos-delay="100">
             현충일, 6·25… 이름은 익숙하지만 의미는 낯선 아이들
           </p>
         </div>
         <div class="holiday__photo">
           <img class="holiday__photo-deco holiday__photo-deco--bg" src="./resource/img/holiday__photo--bg.svg" alt=""
-            aria-hidden="true" />
+            aria-hidden="true" data-aos="fade-up" data-aos-delay="0" />
           <img class="holiday__photo-deco holiday__photo-deco--paper paper-1"
-            src="./resource/img/holiday__photo--paper-1.svg" alt="" aria-hidden="true" />
+            src="./resource/img/holiday__photo--paper-1.svg" alt="" aria-hidden="true" data-aos="fade-up" data-aos-delay="150" />
           <img class="holiday__photo-deco holiday__photo-deco--paper paper-2"
-            src="./resource/img/holiday__photo--paper-2.svg" alt="" aria-hidden="true" />
+            src="./resource/img/holiday__photo--paper-2.svg" alt="" aria-hidden="true" data-aos="fade-up" data-aos-delay="300" />
           <img class="holiday__photo-deco holiday__photo-deco--paper paper-3"
-            src="./resource/img/holiday__photo--paper-3.svg" alt="" aria-hidden="true" />
+            src="./resource/img/holiday__photo--paper-3.svg" alt="" aria-hidden="true" data-aos="fade-up" data-aos-delay="450" />
           <img class="holiday__photo-deco holiday__photo-deco--mascot mascot-1"
-            src="./resource/img/holiday__photo--mascot-1.svg" alt="" aria-hidden="true" />
+            src="./resource/img/holiday__photo--mascot-1.svg" alt="" aria-hidden="true" data-aos="fade-up" data-aos-delay="600" />
           <img class="holiday__photo-deco holiday__photo-deco--mascot mascot-2"
-            src="./resource/img/holiday__photo--mascot-2.svg" alt="" aria-hidden="true" />
+            src="./resource/img/holiday__photo--mascot-2.svg" alt="" aria-hidden="true" data-aos="fade-up" data-aos-delay="750" />
         </div>
 
         <div class="holiday_suvey">
@@ -290,7 +288,7 @@
         <div class="video-intro__heading">
           <img class="video-intro__heading-deco" src="./resource/img/kite.svg" alt="" aria-hidden="true" />
           <div class="video-intro__heading-inner">
-            <h2 id="video-intro-heading" class="video-intro__heading-text">
+            <h2 id="video-intro-heading" class="video-intro__heading-text" data-aos="fade-up">
               <span class="video-intro__heading-plain">외우는 역사가 아니라</span>
               <span class="video-intro__heading-accent">
                 <span class="video-intro__heading-accent-1">이해하는</span>
@@ -298,7 +296,7 @@
               </span>
             </h2>
             <div class="video-intro__desc">
-              <p class="video-intro__desc-text">
+              <p class="video-intro__desc-text" data-aos="fade-up" data-aos-delay="100">
                 한국사 전문가 연희쌤과 ZOOM으로 함께하는
                 <br />
                 초등 맞춤형 라이브 수업을 체험해 보세요!
@@ -308,12 +306,11 @@
           </div>
         </div>
 
-        <div class="video-intro__player">
+        <div class="video-intro__player" data-aos="fade-up-left" data-aos-duration="900" data-aos-easing="ease-out-cubic">
           <img class="video-intro__player-card-back" src="./resource/img/video-intro__player-card-back.svg" alt=""
             aria-hidden="true" />
           <div class="video-intro__player-card">
 
-            <!-- ▼ 통이미지 썸네일 + video poster 방식 + 상단 핀 아이콘 ▼ -->
             <div class="video-intro__thumb" id="videoThumb">
               <img class="video-intro__thumb-pin" src="./resource/img/video-intro__thumb-pin.svg" alt=""
                 aria-hidden="true" />
@@ -323,7 +320,6 @@
 
               <button type="button" class="video-intro__play" id="playBtn" aria-label="수업 소개 영상 재생"></button>
             </div>
-            <!-- ▲ 통이미지 썸네일 + video poster 방식 + 상단 핀 아이콘 ▲ -->
 
             <ul class="video-intro__feature-list">
               <li class="video-intro__feature">
@@ -363,7 +359,7 @@
       <section class="main-section subjects" aria-labelledby="subjects-heading">
         <div class="subjects__heading-wrap">
           <img class="subjects__heading-icon" src="./resource/img/subjects__heading-icon.svg" alt="" aria-hidden="true" />
-          <h2 id="subjects-heading" class="subjects__heading">여름방학 과목별 학습 한 눈에 보기</h2>
+          <h2 id="subjects-heading" class="subjects__heading" data-aos="fade-up">여름방학 과목별 학습 한 눈에 보기</h2>
         </div>
         <div class="subjects__tabs-wrap">
           <div class="subjects__tab-rope" aria-hidden="true"></div>
@@ -850,7 +846,7 @@
         <div class="event-hero__kids-wrap">
           <a href="https://www.miraenchoco.com/choco-time" target="_blank">
             <img class="event-hero__kids" src="./resource/img/tv.png" alt="초코타임 라이브 수업에 참여하는 아이들" />
-            <figure class="event-hero__review event-hero__review--1">
+            <figure class="event-hero__review event-hero__review--1" data-aos="fade-up" data-aos-delay="0">
               <div class="event-hero__review-bubble">
                 <blockquote class="event-hero__review-text">
                   다음에도 이연희 선생님 강의는
@@ -861,7 +857,7 @@
               </div>
               <img class="event-hero__review-icon" src="./resource/img/speechBubble-heart.svg" alt="" aria-hidden="true" />
             </figure>
-            <figure class="event-hero__review event-hero__review--2">
+            <figure class="event-hero__review event-hero__review--2" data-aos="fade-up" data-aos-delay="200">
               <div class="event-hero__review-bubble">
                 <blockquote class="event-hero__review-text">
                   선생님이 재미있게 수업을 해주시니
@@ -871,7 +867,7 @@
               </div>
               <img class="event-hero__review-icon" src="./resource/img/speechBubble-hand.svg" alt="" aria-hidden="true" />
             </figure>
-            <figure class="event-hero__review event-hero__review--3">
+            <figure class="event-hero__review event-hero__review--3" data-aos="fade-up" data-aos-delay="400">
               <div class="event-hero__review-bubble">
                 <blockquote class="event-hero__review-text">
                   역사 이야기가 귀에 콕콕 박혀
@@ -916,20 +912,20 @@
         </div>
         <div class="notice__body">
           <span class="notice__body-text">
-            &lt;수업 신청 및 참여&gt;<br>
-            - ZOOM으로 진행되는 라이브 수업이며, 회원가입만 해도 누구나 신청 할 수 있습니다.<br>
-            - 사전 신청자는 수업 30분 전 참여 안내 문자가 발송됩니다. (SMS 수신동의 필수)<br>
-            또는 수업 10분 전부터 [초코타임 → 나의 초코타임 → 수업 들어가기] 메뉴에서 바로 참여 할 수 있습니다.
+            &lt;수업 신청 및 참여&gt;
+            <p class="notice__body-item">ZOOM으로 진행되는 라이브 수업이며, <u class="notice__body-emphasis">회원가입만 해도 누구나 신청</u> 할 수 있습니다.</p>
+            <p class="notice__body-item">사전 신청자는 수업 30분 전 참여 안내 문자가 발송됩니다. (SMS 수신동의 필수)<br>
+              또는 <u class="notice__body-emphasis">수업 10분 전부터 [초코타임 → 나의 초코타임 → 수업 들어가기] 메뉴에서 바로 참여</u> 할 수 있습니다.</p>
           </span>
           <span class="notice__body-text">
-            &lt;이벤트 유의사항&gt;<br>
-- 후기 작성은 여러 번 가능하나, 초코칩은 한 자녀당 1회만 제공 됩니다.<br>
-(수업에 관계없이 중복 지급X, 최대 100개 제공)<br>
-- SNS 후기는 6/21 이후 담당자 확인 시, 수업과 무관하거나 삭제·미공개 처리된 내용은 인정되지 않습니다.<br>
-- SNS 후기 이벤트 참여 시 작성한 링크를 함께 기재해 주셔야 하며,<br>
-수업·후기 개수와 관계없이 기프티콘은 회원정보에 등록된 번호로 최초 1회만 지급됩니다.<br>
-- 기프티콘은 재고 상황에 따라 변경될 수 있으며, 유효기간 만료 후 연장 및 환불은 불가합니다.<br>
-- 작성된 후기는 추후 초코타임 수업 및 마케팅 홍보물에 활용될 수 있습니다.
+            &lt;이벤트 유의사항&gt;
+            <p class="notice__body-item">후기 작성은 여러 번 가능하나, <u class="notice__body-emphasis">초코칩은 한 자녀당 1회만</u> 제공 됩니다.<br>
+              (수업에 관계없이 중복 지급X, 최대 100개 제공)</p>
+            <p class="notice__body-item">SNS 후기는 6/21 이후 담당자 확인 시, <u class="notice__body-emphasis">수업과 무관하거나 삭제·미공개 처리된 내용은 인정되지 않습니다.</u></p>
+            <p class="notice__body-item">SNS 후기 이벤트 참여 시 작성한 링크를 함께 기재해 주셔야 하며,<br>
+              <u class="notice__body-emphasis">수업·후기 개수와 관계없이 기프티콘은 회원정보에 등록된 번호로 최초 1회만 지급됩니다.</u></p>
+            <p class="notice__body-item"><u class="notice__body-emphasis">기프티콘은 재고 상황에 따라 변경될 수 있으며, 유효기간 만료 후 연장 및 환불은 불가합니다.</u></p>
+            <p class="notice__body-item">작성된 후기는 추후 초코타임 수업 및 마케팅 홍보물에 활용될 수 있습니다.</p>
           </span>
         </div>
       </section>
@@ -949,12 +945,7 @@
           </a>
         </li>
         <li class="floating-nav__item">
-          <a class="floating-nav__link floating-nav__link--active" href="#hero-heading" aria-current="page">
-            <span class="floating-nav__link-text">초코타임미리보기</span>
-          </a>
-        </li>
-        <li class="floating-nav__item">
-          <a class="floating-nav__link" href="#video-intro-heading">
+          <a class="floating-nav__link floating-nav__link--active" href="#video-intro-heading">
             <span class="floating-nav__link-text">초코타임 미리보기</span>
           </a>
         </li>
@@ -981,154 +972,10 @@
     </nav>
   </div>
 
-  <script src="./resource/vendor/jquery/jquery.min.js"></script>
-  <script src="./resource/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="./resource/vendor/aos/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script>
-    $(function () {
-
-      // 1. 과목 탭 + 슬라이더(Swiper) 연결
-      (function () {
-        var tabList = $('.subjects__tabs');
-        var panel = $('#subjects-panel');
-        if (tabList.length === 0 || panel.length === 0 || typeof Swiper === 'undefined') return;
-
-        var tabs = tabList.find('[role="tab"]');
-        var tabCount = tabs.length;
-
-        function setActiveTab(index, moveFocus) {
-          var activeTab = tabs.eq(index);
-          if (activeTab.length === 0) return;
-
-          tabs.each(function (i) {
-            var isSelected = (i === index);
-            $(this).attr('aria-selected', isSelected);
-            $(this).attr('tabindex', isSelected ? '0' : '-1');
-          });
-
-          panel.attr('aria-labelledby', activeTab.attr('id'));
-
-          var activeSubject = activeTab.data('subject');
-          $('.subjects__panel-quote[data-subject-panel]').each(function () {
-            this.hidden = ($(this).data('subjectPanel') !== activeSubject);
-          });
-
-          if (moveFocus) activeTab.trigger('focus');
-        }
-
-        var swiper = new Swiper(panel[0], {
-          loop: true,
-          speed: 450,
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
-          },
-          autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true
-          },
-          on: {
-            slideChange: function (activeSwiper) {
-              setActiveTab(activeSwiper.realIndex, false);
-            }
-          }
-        });
-
-        tabs.on('click', function () {
-          var index = tabs.index(this);
-          swiper.slideToLoop(index);
-          swiper.autoplay.start();
-        });
-
-        tabs.on('keydown', function (e) {
-          var currentIndex = tabs.index(this);
-          var nextIndex = currentIndex;
-
-          if (e.key === 'ArrowRight') nextIndex = (currentIndex + 1) % tabCount;
-          else if (e.key === 'ArrowLeft') nextIndex = (currentIndex - 1 + tabCount) % tabCount;
-          else if (e.key === 'Home') nextIndex = 0;
-          else if (e.key === 'End') nextIndex = tabCount - 1;
-          else return;
-
-          e.preventDefault();
-          swiper.slideToLoop(nextIndex);
-          setActiveTab(nextIndex, true);
-          swiper.autoplay.start();
-        });
-
-        tabList.on('mouseenter', function () { swiper.autoplay.stop(); });
-        tabList.on('mouseleave', function () { swiper.autoplay.start(); });
-
-        var startIndex = Math.floor(Math.random() * tabCount);
-        swiper.slideToLoop(startIndex, 0);
-        setActiveTab(swiper.realIndex, false);
-      })();
-
-      // 2. 자기소개 textarea 글자수 표시
-      (function () {
-        var textarea = $('#survey-note');
-        var counter = $('#survey-note-count');
-        if (textarea.length === 0 || counter.length === 0) return;
-
-        var maxLength = Number(textarea.attr('maxlength')) || 0;
-
-        function updateCounter() {
-          var currentLength = textarea.val().length;
-          counter.text(currentLength.toLocaleString('ko-KR') + '/' + maxLength.toLocaleString('ko-KR'));
-        }
-
-        textarea.on('input', updateCounter);
-        updateCounter();
-      })();
-
-      // 3. 소개 영상 재생 / 일시정지
-      (function () {
-        var thumb = $('#videoThumb');
-        var video = $('#introVideo');
-        var playButton = $('#playBtn');
-        if (thumb.length === 0 || video.length === 0 || playButton.length === 0) return;
-
-        playButton.on('click', function () {
-          video[0].play();
-        });
-        video.on('play', function () {
-          thumb.addClass('is-playing');
-        });
-        video.on('pause ended', function () {
-          thumb.removeClass('is-playing');
-        });
-      })();
-
-      // 4. 스크롤 위치에 따라 오른쪽 메뉴 활성화 표시
-      (function () {
-        var navLinks = $('.floating-nav__link[href^="#"]');
-        if (navLinks.length === 0) return;
-
-        function updateActiveLink() {
-          var scrollPosition = $(window).scrollTop() + window.innerHeight / 3;
-          var activeLink = navLinks.eq(0);
-
-          navLinks.each(function () {
-            var target = $($(this).attr('href'));
-            if (target.length > 0 && target.offset().top <= scrollPosition) {
-              activeLink = $(this);
-            }
-          });
-
-          navLinks.removeClass('floating-nav__link--active');
-          activeLink.addClass('floating-nav__link--active');
-        }
-
-        $(window).on('scroll', updateActiveLink);
-        updateActiveLink();
-      })();
-
-    });
-  </script>
+  <script src="./resource/js/jquery.min.js"></script>
+  <script src="./resource/js/swiper-bundle.min.js"></script>
+  <script src="./resource/js/aos.js"></script>
+  <script src="./resource/js/main.js"></script>
 </body>
 
 </html>

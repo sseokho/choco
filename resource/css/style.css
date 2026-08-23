@@ -214,7 +214,7 @@ html {
   background: url(../img/event-hero-bg.jpg) no-repeat center / cover;
 }
 .event-hero__cta {
-  background: var(--main-brown, #5a371e);
+  background: #5a371e;
   border-radius: 10rem;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.3);
@@ -622,7 +622,7 @@ html {
   position: static;
 }
 .subjects__heading {
-  color: var(--primary-choco-brown, #5a371e);
+  color: #5a371e;
   text-align: center;
   font-family: "Jalnan2", sans-serif;
   font-size: 5.6rem;
@@ -932,7 +932,7 @@ html {
   overflow: visible;
 }
 .subjects__feature-title {
-  color: var(--primary-choco-brown, #5a371e);
+  color: #5a371e;
   text-align: center;
   font-family: "GmarketSansBold", sans-serif;
   font-size: 3rem;
@@ -1006,7 +1006,7 @@ html {
   position: relative;
 }
 .subjects__feature-card-title {
-  color: var(--primary-choco-brown, #5a371e);
+  color: #5a371e;
   text-align: center;
   font-family: "GmarketSansBold", sans-serif;
   font-size: 2.2rem;
@@ -1178,7 +1178,7 @@ html {
   position: relative;
 }
 .video-intro__heading-plain {
-  color: var(--main-brown, #5a371e);
+  color: #5a371e;
   text-align: center;
   font-family: "Jalnan2", sans-serif;
   font-size: 5.6rem;
@@ -1197,7 +1197,7 @@ html {
   letter-spacing: -0.03em;
   font-weight: 400;
   position: relative;
-  -webkit-text-stroke: 0.2rem var(--main-brown, #5a371e);
+  -webkit-text-stroke: 0.2rem #5a371e;
   z-index: 99;
 }
 .video-intro__heading-accent::before {
@@ -1235,13 +1235,13 @@ html {
   color: #fff;
   filter: drop-shadow(0 0.3rem 0 #5A371D);
   -webkit-text-stroke-width: 0.2rem;
-  -webkit-text-stroke-color: var(--main-brown, #5A371E);
+  -webkit-text-stroke-color: #5A371E;
 }
 .video-intro__heading-accent-2 {
   color: #ffffff;
   text-shadow: 0 0.3rem 0 #5A371D;
   -webkit-text-stroke-width: 0.2rem;
-  -webkit-text-stroke-color: var(--main-brown, #5A371E);
+  -webkit-text-stroke-color: #5A371E;
   font-family: "Jalnan2", sans-serif;
 }
 .video-intro__desc {
@@ -1251,7 +1251,7 @@ html {
   position: static;
 }
 .video-intro__desc-text {
-  color: var(--main-brown, #5a371e);
+  color: #5a371e;
   text-align: center;
   font-family: "GmarketSansBold", sans-serif;
   font-size: 3rem;
@@ -1483,7 +1483,7 @@ html {
   margin-left: 0.6rem;
   border-top: 1.6rem solid transparent;
   border-bottom: 1.6rem solid transparent;
-  border-left: 2.4rem solid var(--main-brown, #5a371e);
+  border-left: 2.4rem solid #5a371e;
 }
 .video-intro__play:hover {
   transform: translate(-50%, -50%) scale(1.06);
@@ -1932,7 +1932,7 @@ html {
   white-space: nowrap;
 }
 .holiday__subtext {
-  color: var(--black, #000000);
+  color: #000000;
   text-align: center;
   font-family: "GmarketSansMedium", sans-serif;
   font-size: 3rem;
@@ -2035,7 +2035,7 @@ html {
   overflow: visible;
 }
 .holiday__clipping--1 .holiday__clipping-quote {
-  color: var(--black, #000000);
+  color: #000000;
   text-align: center;
   font-family: "GmarketSansBold", sans-serif;
   font-size: 3.2rem;
@@ -2130,7 +2130,7 @@ html {
   overflow: visible;
 }
 .holiday__clipping--2 .holiday__clipping-quote {
-  color: var(--black, #000000);
+  color: #000000;
   text-align: center;
   font-family: "GmarketSansBold", sans-serif;
   font-size: 3.2rem;
@@ -2223,7 +2223,7 @@ html {
   overflow: visible;
 }
 .holiday__clipping--3 .holiday__clipping-quote {
-  color: var(--black, #000000);
+  color: #000000;
   text-align: center;
   font-family: "GmarketSansBold", sans-serif;
   font-size: 3.2rem;
@@ -2986,7 +2986,7 @@ html {
   letter-spacing: -0.02em;
 }
 .hero__info-message-accent {
-  color: var(--pink03, #ff8296);
+  color: #ff8296;
   font-family: "Jalnan2", sans-serif;
 }
 .hero__info-message-main {
@@ -2999,7 +2999,7 @@ html {
   align-items: center;
   justify-content: center;
   gap: 1.2rem;
-  background: var(--pink03, #ff8296);
+  background: #ff8296;
   border: 0.226rem solid #ffffff;
   border-radius: 999px;
   padding: 0.8rem 2.4rem 0.8rem 2.8rem;
@@ -3075,7 +3075,7 @@ html {
   flex: 0 0 44.53%;
 }
 .hero__info-card__heart {
-  color: var(--pink03, #ff8296);
+  color: #ff8296;
 }
 .hero__info-arrow {
   position: absolute;
@@ -3264,7 +3264,7 @@ html {
 .site-header__login {
   border-radius: 999px;
   border-style: solid;
-  border-color: var(--neutral-black, #000000);
+  border-color: #000000;
   border-width: 0.2rem;
   padding: 1rem 2rem 1rem 2rem;
   display: flex;
@@ -3274,7 +3274,7 @@ html {
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
-  color: var(--neutral-black, #000000);
+  color: #000000;
   text-align: center;
   font-family: "GmarketSansBold", sans-serif;
   font-size: 1.6rem;
@@ -3412,10 +3412,10 @@ html {
   width: auto;
 }
 .sticky-cta {
-  background: var(--brown01, #5a371e);
+  background: #5a371e;
   border-radius: 3rem 3rem 0rem 0rem;
   border-style: solid;
-  border-color: var(--brown02, #331d0a);
+  border-color: #331d0a;
   border-width: 0.3rem 0.3rem 0rem 0.3rem;
   padding: 1.4rem 0rem 1.8rem 0rem;
   width: 120rem;
@@ -3439,15 +3439,15 @@ html {
   translate: 0 -50%;
 }
 .sticky-cta__text-accent {
-  color: var(--pink03, #ff8296);
+  color: #ff8296;
 }
 .sticky-cta__text-main {
-  color: var(--white, #ffffff);
+  color: #ffffff;
 }
 .sticky-cta__button {
   width: 18.5rem;
   height: 4.5rem;
-  background: var(--pink03, #ff8296);
+  background: #ff8296;
   border-radius: 15.038rem;
   border-style: solid;
   border-color: #ffffff;
@@ -3465,7 +3465,7 @@ html {
   cursor: pointer;
 }
 .sticky-cta__button-text {
-  color: var(--white, #ffffff);
+  color: #ffffff;
   text-align: center;
   font-family: "GmarketSansBold", sans-serif;
   font-size: 2.4rem;
@@ -3638,7 +3638,7 @@ html {
   cursor: pointer;
 }
 .floating-nav__link-text {
-  color: var(--chocobrown, #5a371e);
+  color: #5a371e;
   text-align: center;
   font-family: "GmarketSansBold", sans-serif;
   font-size: 1.6rem;
@@ -3654,7 +3654,7 @@ html {
   border-width: 0.2rem;
 }
 .floating-nav__link--active .floating-nav__link-text {
-  color: var(--white, #ffffff);
+  color: #ffffff;
 }
 .floating-nav__link-inner {
   display: flex;
@@ -3673,7 +3673,7 @@ html {
   overflow: visible;
 }
 .floating-nav__top {
-  background: var(--brown, #5a371e);
+  background: #5a371e;
   border-radius: 0rem 0rem 2rem 2rem;
   padding: 1.2rem 1.6rem 1rem 1.6rem;
   display: flex;
@@ -3687,7 +3687,7 @@ html {
   position: relative;
 }
 .floating-nav__top-text {
-  color: var(--white, #ffffff);
+  color: #ffffff;
   text-align: center;
   font-family: "RixInooAriDuri_Pro", sans-serif;
   font-size: 1.6rem;

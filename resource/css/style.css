@@ -195,7 +195,7 @@ html {
 .event-hero {
   position: relative;
   overflow: hidden;
-  background: url("/resource/img/event-hero-bg.jpg");
+  background: url("../img/event-hero-bg.jpg");
   padding: 12rem 0 23.3rem 0;
 }
 .event-hero__actions {
@@ -211,7 +211,7 @@ html {
   position: absolute;
   left: 0rem;
   top: 0rem;
-  background: url(/resource/img/event-hero-bg.jpg) no-repeat center / cover;
+  background: url(../img/event-hero-bg.jpg) no-repeat center / cover;
 }
 .event-hero__cta {
   background: var(--main-brown, #5a371e);
@@ -282,7 +282,7 @@ html {
   left: 11rem;
   top: -5rem;
   z-index: 999;
-  background: url("/resource/img/speechBubble-pink.svg") no-repeat center / contain;
+  background: url("../img/speechBubble-pink.svg") no-repeat center / contain;
 }
 .event-hero__badge-shape {
   width: 16.5rem;
@@ -362,7 +362,7 @@ html {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("/resource/img/speechBubble.svg") no-repeat center / contain;
+  background: url("../img/speechBubble.svg") no-repeat center / contain;
   z-index: 0;
 }
 .event-hero__review.event-hero__review--2 .event-hero__review-bubble::before {
@@ -444,7 +444,7 @@ html {
   top: 7.5rem;
   width: 6rem;
   height: 2.5rem;
-  background: url(/resource/img/glpink-shadow.svg) no-repeat center / contain;
+  background: url(../img/glpink-shadow.svg) no-repeat center / contain;
   mix-blend-mode: multiply;
 }
 .event-hero__deco-3-img {
@@ -597,7 +597,7 @@ html {
   bottom: 0;
   width: 100%;
   height: 139.9rem;
-  background: url("/resource/img/subjects-bg.svg");
+  background: url("../img/subjects-bg.svg");
 }
 .subjects__heading-wrap {
   display: flex;
@@ -661,21 +661,21 @@ html {
   height: 6.8rem;
   position: relative;
   cursor: pointer;
-  background: url(/resource/img/tab.svg) no-repeat center / 100% 100%;
+  background: url(../img/tab.svg) no-repeat center / 100% 100%;
   border: none;
   padding: 0;
 }
 .subjects__tab[aria-selected="true"] {
-  background-image: url(/resource/img/tab-active.svg);
+  background-image: url(../img/tab-active.svg);
 }
 .subjects__tab[data-subject="math"][aria-selected="true"] {
-  background-image: url(/resource/img/tab-active-math.svg);
+  background-image: url(../img/tab-active-math.svg);
 }
 .subjects__tab[data-subject="social"][aria-selected="true"] {
-  background-image: url(/resource/img/tab-active-social.svg);
+  background-image: url(../img/tab-active-social.svg);
 }
 .subjects__tab[data-subject="science"][aria-selected="true"] {
-  background-image: url(/resource/img/tab-active-science.svg);
+  background-image: url(../img/tab-active-science.svg);
 }
 .subjects__tabs-wrap{
   position: relative;
@@ -685,7 +685,7 @@ html {
 .subjects__tab-rope {
   width: 100%;
   height: 2.6rem;
-  background: url(/resource/img/tab-stroke.svg) no-repeat center / cover;
+  background: url(../img/tab-stroke.svg) no-repeat center / cover;
   position: absolute;
   left: 50%;
   translate: -50%;
@@ -700,7 +700,7 @@ html {
   width: 3.9rem;
   height: 12.9rem;
   translate: -50%;
-  background: url(/resource/img/crab.svg) no-repeat center / contain;
+  background: url(../img/crab.svg) no-repeat center / contain;
   z-index: 3;
 }
 .subjects__tab-rope::before {
@@ -1135,7 +1135,7 @@ html {
   content: "";
   width: 2rem;
   height: 2.4rem;
-  background: url(/resource/img/polygon.svg) no-repeat center / contain;
+  background: url(../img/polygon.svg) no-repeat center / contain;
 }
 .subjects__panel-wrap .swiper-button-next::after {
   transform: scaleX(-1);
@@ -1207,7 +1207,7 @@ html {
   top: -1.4rem;
   width: 2.2rem;
   height: 2rem;
-  background: url("/resource/img/video-intro__heading-star.svg") no-repeat center / contain;
+  background: url("../img/video-intro__heading-star.svg") no-repeat center / contain;
 }
 .video-intro__heading-accent::after {
   content: "";
@@ -1217,7 +1217,7 @@ html {
   bottom: 1.4rem;
   width: 100%;
   height: 2.5rem;
-  background: url("/resource/img/video-intro__heading-accent-line.svg") no-repeat center / contain;
+  background: url("../img/video-intro__heading-accent-line.svg") no-repeat center / contain;
 }
 .video-intro__heading-accent-1 {
   background: linear-gradient(90deg, #FFFE8D 0%, #FFE14B 100%);
@@ -1300,7 +1300,7 @@ html {
   content: "";
   position: absolute;
   inset: 0;
-  background: url(/resource/img/video-intro__player-card.svg) no-repeat center / 100% 100%;
+  background: url(../img/video-intro__player-card.svg) no-repeat center / 100% 100%;
   transform: scaleX(-1);
 }
 .video-intro__player-card-deco--1 {
@@ -1702,7 +1702,7 @@ html {
   top: 0.7rem;
   width: 1.3rem;
   height: 1rem;
-  background: url(/resource/img/radio.svg) no-repeat center / contain;
+  background: url(../img/radio.svg) no-repeat center / contain;
   opacity: 0;
 }
 .survey__checkbox-input:checked ~ .survey__checkbox-box {
@@ -2956,7 +2956,7 @@ html {
   width: 14.4rem;
   height: 6.7rem;
   flex-shrink: 0;
-  background: url("/resource/img/twinkle-speech.svg") no-repeat center / contain;
+  background: url("../img/twinkle-speech.svg") no-repeat center / contain;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3026,7 +3026,7 @@ html {
   width: auto;
 }
 .hero__info-cards{
-  background: url(/resource/img/hero__info-cards.svg) no-repeat center / 100%;
+  background: url(../img/hero__info-cards.svg) no-repeat center / 100%;
   width: 100%;
   height: 23.6rem;
   margin-top: -3.5rem;
@@ -3322,11 +3322,11 @@ html {
   height: 3.9rem;
   margin-left: -5rem;
   overflow: visible;
-  background: url(/resource/img/icon-siren.svg) no-repeat center / contain;
+  background: url(../img/icon-siren.svg) no-repeat center / contain;
 }
 .top-banner__squiggle::before{
   content:'';
-  background: url("/resource/img/icon-siren-light.svg");
+  background: url("../img/icon-siren-light.svg");
   position: absolute;
   left: -1.2rem;
   top: -1.2rem;
@@ -3362,7 +3362,7 @@ html {
 }
 .top-banner__message-highlight:after{
   content: '';
-  background: url(/resource/img/icon-text-line.svg) no-repeat;
+  background: url(../img/icon-text-line.svg) no-repeat;
   position: absolute;
   left: 0;
   bottom: -0.4rem;

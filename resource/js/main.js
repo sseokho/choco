@@ -7,7 +7,9 @@ $(function () {
 });
 
 function initAos() {
-  AOS.init();
+  AOS.init({
+    once: true,
+  });
 }
 
 function initSubjectsTabs() {

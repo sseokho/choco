@@ -37,28 +37,28 @@ menu, ol, ul {
 @media(max-width: 1600px){
     html,
     body{
-        font-size: 52.083%;
+        font-size: calc(62.5% * 0.8333);
     }
 }
 
 @media(max-width: 1440px){
     html,
     body{
-        font-size: 46.875%;
+        font-size: calc(62.5% * 0.75);
     }
 }
 
 @media(max-width: 1280px){
     html,
     body{
-        font-size: 41.667%;
+        font-size: calc(62.5% * 0.6667);
     }
 }
 
 @media(max-width: 1024px){
     html,
     body{
-        font-size: 33.3%;
+        font-size: calc(62.5% * 0.5328);
     }
     .floating-nav {
         display: none;
@@ -68,49 +68,49 @@ menu, ol, ul {
 @media(max-width: 768px){
     html,
     body{
-        font-size: 29.16%;
+        font-size: calc(62.5% * 0.4666);
     }
 }
 
 @media(max-width: 560px){
     html,
     body{
-        font-size: 21.2625%;
+        font-size: calc(62.5% * 0.3402);
     }
 }
 
 @media(max-width: 480px){
     html,
     body{
-        font-size: 18.225%;
+        font-size: calc(62.5% * 0.2916);
     }
 }
 
 @media(max-width: 414px){
     html,
     body{
-        font-size: 15.7194%;
+        font-size: calc(62.5% * 0.2515);
     }
 }
 
 @media(max-width: 390px){
     html,
     body{
-        font-size: 14.8068%;
+        font-size: calc(62.5% * 0.2369);
     }
 }
 
 @media(max-width: 360px){
     html,
     body{
-        font-size: 13.6469%;
+        font-size: calc(62.5% * 0.2184);
     }
 }
 
 @media(max-width: 320px){
     html,
     body{
-        font-size: 12.15%;
+        font-size: calc(62.5% * 0.1944);
     }
 }
 

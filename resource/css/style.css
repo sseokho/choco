@@ -282,7 +282,7 @@ html {
   left: 11rem;
   top: -5rem;
   z-index: 999;
-  background: url("../img/speechBubble-pink.svg") no-repeat center / contain;
+  background: url("../img/speech-bubble-pink.svg") no-repeat center / contain;
 }
 .event-hero__badge-shape {
   width: 16.5rem;
@@ -362,7 +362,7 @@ html {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("../img/speechBubble.svg") no-repeat center / contain;
+  background: url("../img/speech-bubble.svg") no-repeat center / contain;
   z-index: 0;
 }
 .event-hero__review.event-hero__review--2 .event-hero__review-bubble::before {
@@ -444,7 +444,7 @@ html {
   top: 7.5rem;
   width: 6rem;
   height: 2.5rem;
-  background: url(../img/glpink-shadow.svg) no-repeat center / contain;
+  background: url(../img/glow-pink-shadow.svg) no-repeat center / contain;
   mix-blend-mode: multiply;
 }
 .event-hero__deco-3-img {
@@ -1207,7 +1207,7 @@ html {
   top: -1.4rem;
   width: 2.2rem;
   height: 2rem;
-  background: url("../img/video-intro__heading-star.svg") no-repeat center / contain;
+  background: url("../img/video-intro-heading-star.svg") no-repeat center / contain;
 }
 .video-intro__heading-accent::after {
   content: "";
@@ -1217,7 +1217,7 @@ html {
   bottom: 1.4rem;
   width: 100%;
   height: 2.5rem;
-  background: url("../img/video-intro__heading-accent-line.svg") no-repeat center / contain;
+  background: url("../img/video-intro-heading-accent-line.svg") no-repeat center / contain;
 }
 .video-intro__heading-accent-1 {
   background: linear-gradient(90deg, #FFFE8D 0%, #FFE14B 100%);
@@ -1274,7 +1274,7 @@ html {
   position: absolute;
   left: 50%;
   translate: -50%;
-  top: 406.033rem;
+  top: 411.233rem;
   overflow: hidden;
 }
 .video-intro__player-card-back {
@@ -1294,13 +1294,13 @@ html {
   padding: 2.8rem 2.8rem 1.6rem;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(-1, 1);
-  overflow: hidden;
+  overflow: visible;
 }
 .video-intro__player-card::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: url(../img/video-intro__player-card.svg) no-repeat center / 100% 100%;
+  background: url(../img/video-intro-player-card.svg) no-repeat center / 100% 100%;
   transform: scaleX(-1);
 }
 .video-intro__player-card-deco--1 {
@@ -1443,7 +1443,7 @@ html {
   width: 4rem;
   height: auto;
   position: absolute;
-  top: -2rem;
+  top: -4rem;
   left: 2.8rem;
   z-index: 3;
   filter: drop-shadow(0 0.3rem 0.4rem rgba(51, 29, 10, 0.3));
@@ -3026,7 +3026,7 @@ html {
   width: auto;
 }
 .hero__info-cards{
-  background: url(../img/hero__info-cards.svg) no-repeat center / 100%;
+  background: url(../img/hero-info-cards.svg) no-repeat center / 100%;
   width: 100%;
   height: 23.6rem;
   margin-top: -3.5rem;
@@ -3079,10 +3079,10 @@ html {
 }
 .hero__info-arrow {
   position: absolute;
-  left: 69%;
-  top: 82%;
-  width: 3.4rem;
-  height: auto;
+  left: 75%;
+  top: 78%;
+  width: 6.4rem;
+  height: 5.8rem;
 }
 .hero__info-note {
   color: #333333;
@@ -3326,20 +3326,20 @@ html {
 }
 .top-banner__squiggle::before{
   content:'';
-  background: url("../img/icon-siren-light.svg");
+  background: url("../img/icon-siren-light.svg") no-repeat center / contain;
   position: absolute;
-  left: -1.2rem;
-  top: -1.2rem;
-  width: 3.4rem;
-  height: 3.8rem;
-  animation: siren 1s linear infinite;
+  left: -1.5rem;
+  top: -1.3rem;
+  width: 100%;
+  height: 100%;
+  animation: siren 1s steps(1, end) infinite;
 }
 @keyframes siren {
-  0% {
+  0%, 49% {
     opacity:0;
   }
 
-  100% {
+  50%, 100% {
     opacity:1;
   }
 }
@@ -3362,7 +3362,7 @@ html {
 }
 .top-banner__message-highlight:after{
   content: '';
-  background: url(../img/icon-text-line.svg) no-repeat;
+  background: url(../img/icon-text-line.svg) no-repeat center / contain;
   position: absolute;
   left: 0;
   bottom: -0.4rem;

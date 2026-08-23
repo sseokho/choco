@@ -180,6 +180,7 @@ html {
 }
 .notice__body-emphasis {
   text-decoration: underline;
+  text-underline-offset: 0.5rem;
 }
 .notice__body-item {
   display: block;

@@ -598,7 +598,7 @@ html {
   bottom: 0;
   width: 100%;
   height: 139.9rem;
-  background: url("../img/subjects-bg.svg");
+  background: url("../img/section-bg.svg") no-repeat center / contain;
 }
 .subjects__heading-wrap {
   display: flex;
@@ -690,14 +690,14 @@ html {
   position: absolute;
   left: 50%;
   translate: -50%;
-  top: 0.9rem;
+  top: 1.9rem;
   z-index: 0;
 }
 .subjects__tab-rope::before,
 .subjects__tab-rope::after {
   content: "";
   position: absolute;
-  top: 2rem;
+  top: 1rem;
   width: 3.9rem;
   height: 12.9rem;
   translate: -50%;
@@ -1208,7 +1208,7 @@ html {
   top: -1.4rem;
   width: 2.2rem;
   height: 2rem;
-  background: url("../img/video-intro-heading-star.svg") no-repeat center / contain;
+  background: url("../img/heading-star.svg") no-repeat center / contain;
 }
 .video-intro__heading-accent::after {
   content: "";
@@ -1218,7 +1218,7 @@ html {
   bottom: 1.4rem;
   width: 100%;
   height: 2.5rem;
-  background: url("../img/video-intro-heading-accent-line.svg") no-repeat center / contain;
+  background: url("../img/heading-accent-line.svg") no-repeat center / contain;
 }
 .video-intro__heading-accent-1 {
   background: linear-gradient(90deg, #FFFE8D 0%, #FFE14B 100%);
@@ -1301,7 +1301,7 @@ html {
   content: "";
   position: absolute;
   inset: 0;
-  background: url(../img/video-intro-player-card.svg) no-repeat center / 100% 100%;
+  background: url(../img/player-card.svg) no-repeat center / 100% 100%;
   transform: scaleX(-1);
 }
 .video-intro__player-card-deco--1 {
@@ -3027,7 +3027,7 @@ html {
   width: auto;
 }
 .hero__info-cards{
-  background: url(../img/hero-info-cards.svg) no-repeat center / 100%;
+  background: url(../img/info-cards.svg) no-repeat center / 100%;
   width: 100%;
   height: 23.6rem;
   margin-top: -3.5rem;

@@ -1,4 +1,5 @@
 $(function () {
+  initPageScale();
   initAos();
   initSubjectsTabs();
   initSurveyCounter();
@@ -6,10 +7,36 @@ $(function () {
   initFloatingNav();
 });
 
+function initPageScale() {
+  var DESIGN_WIDTH = 1920;
+  var page = document.querySelector('.page');
+  if (!page) return;
+
+  function applyScale() {
+    var scale = window.innerWidth / DESIGN_WIDTH;
+    page.style.transform = 'scale(' + scale + ')';
+    document.body.style.height = (page.offsetHeight * scale) + 'px';
+  }
+
+  applyScale();
+  window.addEventListener('resize', applyScale);
+  window.addEventListener('orientationchange', applyScale);
+}
+
 function initAos() {
-  AOS.init({
-    once: true,
-  });
+  var els = document.querySelectorAll('[data-aos]');
+  if (!els.length || typeof IntersectionObserver === 'undefined') return;
+
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('aos-animate');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+  els.forEach(function (el) { observer.observe(el); });
 }
 
 function initSubjectsTabs() {

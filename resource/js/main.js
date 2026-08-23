@@ -84,8 +84,7 @@ function initSubjectsTabs() {
   tabList.on('mouseenter', function () { swiper.autoplay.stop(); });
   tabList.on('mouseleave', function () { swiper.autoplay.start(); });
 
-  var startIndex = Math.floor(Math.random() * tabCount);
-  swiper.slideToLoop(startIndex, 0);
+  swiper.slideToLoop(0, 0);
   setActiveTab(swiper.realIndex, false);
 }
 

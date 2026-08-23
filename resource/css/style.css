@@ -681,7 +681,7 @@ html {
 .subjects__tabs-wrap{
   position: relative;
   z-index: 3;
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 .subjects__tab-rope {
   width: 100%;
@@ -771,7 +771,7 @@ html {
 }
 .subjects__panel-wrap {
   width: 120rem;
-  margin: 18rem auto 0;
+  margin: 20rem auto 0;
   position: relative;
 }
 .subjects__panel {
@@ -1543,7 +1543,7 @@ html {
   gap: 4.4rem;
   align-items: flex-start;
   justify-content: center;
-  width: 108.1rem;
+  width: 120rem;
   left: 5.9rem;
   top: 8rem;
 }
@@ -1758,6 +1758,7 @@ html {
 .survey__field--url .survey__field-head {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 0.8rem;
   align-items: flex-end;
   justify-content: flex-start;
@@ -1787,6 +1788,7 @@ html {
 .survey__field--note .survey__field-head {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 1.6rem;
   align-items: flex-start;
   justify-content: flex-start;

@@ -251,10 +251,12 @@
             <div class="survey__divider" role="separator"></div>
 
             <fieldset class="survey__field survey__field--url">
-              <legend class="survey__legend">
-                포트폴리오 또는 대표 작업물 URL을 작성해 주세요.
-              </legend>
-              <p class="survey__field-hint" id="survey-url-hint">퍼블리싱한 웹사이트 주소를 작성해주세요.</p>
+              <div class="survey__field-head">
+                <legend class="survey__legend">
+                  포트폴리오 또는 대표 작업물 URL을 작성해 주세요.
+                </legend>
+                <p class="survey__field-hint" id="survey-url-hint">퍼블리싱한 웹사이트 주소를 작성해주세요.</p>
+              </div>
               <label class="visually-hidden" for="survey-url">포트폴리오 URL</label>
               <input class="survey__input" id="survey-url" type="url" name="portfolio-url"
                 placeholder="Ex. 중학 국어 2-1(신유식)" aria-describedby="survey-url-hint" />
@@ -263,13 +265,15 @@
             <div class="survey__divider" role="separator"></div>
 
             <fieldset class="survey__field survey__field--note">
-              <legend class="survey__legend">
-                이번 퍼블리싱 과제를 진행하면서 가장 신경 쓴 부분이나 어필하고 싶은
-                점을 적어주세요.
-              </legend>
-              <p class="survey__field-hint" id="survey-note-hint">
-                마크업 구조, 반응형 처리 방식, CSS 구조화 등 자유롭게 작성해 주세요.
-              </p>
+              <div class="survey__field-head">
+                <legend class="survey__legend">
+                  이번 퍼블리싱 과제를 진행하면서 가장 신경 쓴 부분이나 어필하고 싶은
+                  점을 적어주세요.
+                </legend>
+                <p class="survey__field-hint" id="survey-note-hint">
+                  마크업 구조, 반응형 처리 방식, CSS 구조화 등 자유롭게 작성해 주세요.
+                </p>
+              </div>
               <label class="visually-hidden" for="survey-note">신경 쓴 부분 / 어필 포인트</label>
               <div class="survey__textarea-wrap">
                 <textarea class="survey__textarea" id="survey-note" name="note" maxlength="2000"

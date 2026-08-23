@@ -1594,7 +1594,7 @@ html {
   border-radius: 99.9rem;
   border-style: solid;
   border-color: #666666;
-  border-width: 0.1rem;
+  border-width: 2px;
   padding: 1rem 2.4rem 1rem 2.4rem;
   display: flex;
   flex-direction: row;
@@ -1689,7 +1689,7 @@ html {
   border-radius: 1.2rem;
   border-style: solid;
   border-color: #666666;
-  border-width: 0.1rem;
+  border-width: 2px;
   flex-shrink: 0;
   width: 2.4rem;
   height: 2.4rem;
@@ -1709,7 +1709,7 @@ html {
 .survey__checkbox-input:checked ~ .survey__checkbox-box {
   background: #02a39f;
   border-color: #02a39f;
-  border-width: 0.15rem;
+  border-width: 2px;
 }
 .survey__checkbox-input:checked ~ .survey__checkbox-box::after {
   opacity: 1;
@@ -1811,7 +1811,7 @@ html {
   height: 6rem;
   border-style: solid;
   border-color: #333333;
-  border-width: 0.1rem;
+  border-width: 2px;
   padding: 0 2rem;
   font-family: "Pretendard", sans-serif;
   font-size: 2.4rem;
@@ -1830,7 +1830,7 @@ html {
   height: 21.7rem;
   border-style: solid;
   border-color: #02a39f;
-  border-width: 0.15rem;
+  border-width: 2px;
   padding: 1.6rem 2rem 4rem;
   font-family: "Pretendard", sans-serif;
   font-size: 2rem;
